@@ -11,11 +11,11 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -yq unzip unrar deluged delug
 # docker settings
 #################
 
-# map /config to host defined config path (used to store configuration from app)
-VOLUME /config
+# map /root/config to host defined config path (used to store configuration from app)
+VOLUME /root/config
 
-# map /data to host defined data path (used to store data from app)
-VOLUME /data
+# map /root/data to host defined data path (used to store data from app)
+VOLUME /root/data
 
 # expose port for http
 EXPOSE 8112
@@ -31,10 +31,10 @@ EXPOSE 58946/udp
 #################
 
 # change owner
-RUN chown nobody:users /usr/bin/deluged /usr/bin/deluge-web /root
+#RUN chown nobody:users /usr/bin/deluged /usr/bin/deluge-web /root
 
 # set permissions
-RUN chmod 775 /usr/bin/deluged /usr/bin/deluge-web /root
+#RUN chmod 775 /usr/bin/deluged /usr/bin/deluge-web /root
 
 # add conf file
 ###############
@@ -48,4 +48,4 @@ RUN rm -rf /tmp/*
 
 # run `supervisor`
 ##################
-CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/deluge.conf", "-n"]
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor.conf", "-n"]
