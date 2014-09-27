@@ -1,7 +1,5 @@
 # DelugeWebUI
 
-=====================
-
 The purpose of the DelugeWebUI image is to provide you a seedbox by using deluge and it's webserver for a simple use.
 
 ## Quick Start
