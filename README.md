@@ -17,7 +17,7 @@ e.g. : Replace `[CONFIGPATH]` by `/home/yourname/deluge/config` and `[DATAPATH]`
 
         wget https://raw.githubusercontent.com/40thoughts/docker-DelugeWebUI/master/.config/core.conf -O [CONFIGPATH]/core.conf
 
-* You can also do it manually by creating the `[CONFIGPATH]` and downloading [this file](https://raw.githubusercontent.com/40thoughts/docker-DelugeWebUI/master/.config/core.conf) in it.
+* You can also do it manually by creating the `[CONFIGPATH]` folder and downloading [this file](https://raw.githubusercontent.com/40thoughts/docker-DelugeWebUI/master/.config/core.conf) in it.
 
 ## Run
 
@@ -27,9 +27,9 @@ e.g. : Replace `[CONFIGPATH]` by `/home/yourname/deluge/config` and `[DATAPATH]`
 
 ## Have fun
 
-And now, open your navigator and type this in the adress bar : `http://<host ip>:8112`
+And now, open your navigator and type this in the adress bar : `http://<host ip>:8112`.<br/>
 If you installed this container on your desktop just type `http://localhost:8112` or [click here](http://localhost:8112)
 
-Default password id `deluge`.
+Default password is `deluge`.
 
-That's it!!!
+That's it !!!
