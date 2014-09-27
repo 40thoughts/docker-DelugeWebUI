@@ -17,7 +17,7 @@ e.g. : Replace `[CONFIGPATH]` by `/home/yourname/deluge/config` and `[DATAPATH]`
 
         wget https://raw.githubusercontent.com/40thoughts/docker-DelugeWebUI/master/.config/core.conf -O [CONFIGPATH]/core.conf
 
-* You can also do it manually by creating the [CONFIGPATH] and downloading [this file](https://raw.githubusercontent.com/40thoughts/docker-DelugeWebUI/master/.config/core.conf) in it.
+* You can also do it manually by creating the `[CONFIGPATH]` and downloading [this file](https://raw.githubusercontent.com/40thoughts/docker-DelugeWebUI/master/.config/core.conf) in it.
 
 ## Run
 
