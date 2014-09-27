@@ -27,14 +27,11 @@ EXPOSE 58846
 EXPOSE 58946
 EXPOSE 58946/udp
 
-# set permissions
-#################
+# build deluge file system
+##########################
 
-# change owner
-#RUN chown nobody:users /usr/bin/deluged /usr/bin/deluge-web /root
-
-# set permissions
-#RUN chmod 775 /usr/bin/deluged /usr/bin/deluge-web /root
+RUN mkdir /root/data/.incomplete
+RUN mkdir /root/data/AutoAdd
 
 # add conf file
 ###############
