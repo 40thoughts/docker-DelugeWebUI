@@ -2,6 +2,12 @@
 
 The purpose of the DelugeWebUI image is to provide you a seedbox by using `deluge` and it's webserver for a simple use.
 
+## Table of contents
+
+- [Setup](#setup)
+- [Run](#run)
+- [Have fun](#have-fun)
+
 ## Setup
 
 For the first run, before to use the seedbox, we need to download the configuration file for `deluge` and it's tools.
