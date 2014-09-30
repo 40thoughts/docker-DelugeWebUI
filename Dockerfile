@@ -18,7 +18,7 @@ EXPOSE 8112 58846 58946 58946/udp
 # Build deluge file system
 ##########################
 
-RUN mkdir /root/data/.incomplete && mkdir /root/data/AutoAdd
+RUN mkdir /data/.incomplete && mkdir /data/AutoAdd
 
 # Add conf file for `supervisor`
 ################################

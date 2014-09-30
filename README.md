@@ -29,7 +29,7 @@ e.g. : Replace `[CONFIGPATH]` by `/home/yourname/deluge/config` and `[DATAPATH]`
 
 * After doing the initial setup explained before, now, and for the further uses, just run this command-line to start the container.
 
-        sudo docker run -d -p 8112:8112 -p 58846:58846 -p 58946:58946 --name=deluge -v [DATAPATH]:/root/data -v [CONFIGPATH]:/root/config -v /etc/localtime:/etc/localtime:ro crazybud/delugewebui
+        sudo docker run -d -p 8112:8112 -p 58846:58846 -p 58946:58946 --name=deluge -v [DATAPATH]:/data -v [CONFIGPATH]:/config -v /etc/localtime:/etc/localtime:ro crazybud/delugewebui
 
 ## Have fun
 
